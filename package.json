@@ -22,14 +22,4 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
-
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "tfamily43s-del.github",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "tfamily43s-del.github",
-  "start_url": "/",
-  "theme_color": "#ffffff"
 }
