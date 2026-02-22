@@ -1,11 +1,76 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "finsight-pro:-global-economic-&-equity-analytics-20260215",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "finsight-pro:-global-economic-&-equity-analytics-20260215",
+  "name": "FinSight Pro",
+  "short_name": "FinSight",
+  "description": "Global Economic & Equity Analytics Dashboard providing real-time insights into global markets and sectors.",
   "start_url": "/",
-  "theme_color": "#ffffff"
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "orientation": "any",
+  "categories": ["finance", "business"],
+  "icons": [
+    {
+      "src": "https://picsum.photos/192/192",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://picsum.photos/192/192",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://picsum.photos/512/512",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://picsum.photos/512/512",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Market Sectors",
+      "short_name": "Sectors",
+      "description": "View sector technical indicators",
+      "url": "/#/sectors",
+      "icons": [{ "src": "https://picsum.photos/192/192?random=3", "sizes": "192x192" }]
+    },
+    {
+      "name": "Company Data",
+      "short_name": "Companies",
+      "description": "Analyze specific company financials",
+      "url": "/#/companies",
+      "icons": [{ "src": "https://picsum.photos/192/192?random=4", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Portfolio",
+      "short_name": "Portfolio",
+      "description": "Track your investments",
+      "url": "/#/portfolio",
+      "icons": [{ "src": "https://picsum.photos/192/192?random=5", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://picsum.photos/1280/720?random=1",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop Dashboard"
+    },
+    {
+      "src": "https://picsum.photos/720/1280?random=2",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile Analytics"
+    }
+  ]
 }
